@@ -1,0 +1,28 @@
+﻿@model  Efendioglu.Models.Register
+@{
+    ViewBag.Title = "Register";
+    
+}
+
+<h2>Register</h2>
+
+@Html.ValidationSummary()
+
+@using (Html.BeginForm())
+{
+@Html.AntiForgeryToken()
+<div class="form-group">
+    <label>Username</label>
+    @Html.TextBoxFor(i => i.Username, new { @class = "form-control" })
+    <label>Email</label>
+    @Html.TextBoxFor(i => i.Email, new { @class = "form-control" })
+    <label>password</label>
+    @Html.TextBoxFor(i => i.password, new { @class = "form-control" })
+</div>
+    <a href="/Hesap/Login" class="btn-primary">Zaten hesabım var</a>
+    <button type="submit" class="btn btn-primary">kayıt oluştur</button>
+
+}
+
+
+

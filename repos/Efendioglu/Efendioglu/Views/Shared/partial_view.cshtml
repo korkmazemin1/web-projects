@@ -1,0 +1,9 @@
+﻿@using Efendioglu.Models;
+
+@model  List<Yapi>
+
+@foreach (var yapi in Model)
+{ <a href="#" class="list-group-item">
+    @yapi.YapiAdi
+     </a>
+        }

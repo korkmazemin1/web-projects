@@ -1,0 +1,8 @@
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.csproj.AssemblyReference.cache
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.Form1.resources
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.csproj.GenerateResource.cache
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.AssemblyInfoInputs.cache
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.AssemblyInfo.cs
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\social_media.csproj.CoreCompileInputs.cache
+C:\Users\korkm\source\repos\social_media\social_media\obj\Debug\net6.0-windows\sosya_medya.RegisterForm.resources

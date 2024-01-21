@@ -1,0 +1,8 @@
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.csproj.AssemblyReference.cache
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\MainForm.resources
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.csproj.GenerateResource.cache
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.AssemblyInfoInputs.cache
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.AssemblyInfo.cs
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.csproj.CoreCompileInputs.cache
+C:\Users\korkm\source\repos\sosya_medya\sosya_medya\obj\Debug\net6.0-windows\sosya_medya.Form1.resources

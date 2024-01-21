@@ -1,0 +1,29 @@
+﻿@model Efendioglu.Models.LoginModel
+@{
+    ViewBag.Title = "Login";
+    
+}
+
+<h2>Login</h2>
+
+<hr />
+@Html.ValidationSummary()
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+    <div class="form-group">
+        <label>Username</label>
+        @Html.TextBoxFor(i => i.Username, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>parolar</label>
+        @Html.PasswordFor(i => i.password, new { @class = "form-control" })
+    </div>
+    <a href="/Hesap/Register" class="btn-primary">Kayıt ol</a>
+    <button class="btn btn-primary" >Giriş yap</button>
+}
+
+
+

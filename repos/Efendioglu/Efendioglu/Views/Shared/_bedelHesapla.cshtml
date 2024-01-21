@@ -1,0 +1,64 @@
+﻿
+<!-- contact section -->
+
+<section class="contact_section layout_padding">
+    <div class="contact_bg_box">
+        <div class="img-box">
+            <img src="~/images/contact-bg.jpg" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                Get In touch
+            </h2>
+        </div>
+        @using (Html.BeginForm("Yapilar", "YapiDenetim", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <div class="">
+                <div class="row">
+                    <div class="col-md-7 mx-auto">
+                        <form action="#">
+                            <div class="contact_form-container">
+                                <div>
+                                    <div>
+                                        @Html.TextBox("YapiAdi", null, new { @class = "form-control", placeholder = "Yapı ismi" })
+                                    </div>
+                                    <div>
+                                        @Html.TextBox("YapiSahip", null, new { @class = "form-control", placeholder = "Yapı sahibinin ismi" })
+                                    </div>
+                                    <div>
+                                        @Html.TextBox("YapiFiyat", null, new { @class = "form-control", placeholder = "fiyaatı (Tl cinsinden)" })
+                                    </div>
+                                    <div>
+                                        @Html.TextBox("YapiTarih", null, new { @class = "form-control", placeholder = "yapım tarihi" })
+                                    </div>
+                                    <div class="">
+                                        @Html.TextBox("YapiAlan", null, new { @class = "form-control", placeholder = "metrekare cinsinden alanı" })
+                                    </div>
+                                    
+                                    <div>
+                                        <label for="dosya">Choose File:</label>
+                                        <input type="file" name="dosya" id="dosya" />
+                                    </div>
+
+                                    
+
+                                    <div class="btn-box">
+                                        <button type="submit">
+                                            Send
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+   
+</section>
+
+<!-- end contact section -->
